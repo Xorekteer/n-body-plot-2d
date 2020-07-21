@@ -43,7 +43,6 @@ def n_bodies():
         mag  = m1 / twoNorm(diff)**2
         diff = makeUnit(diff)
 
-        #return [0 for diff_elem in diff]
         return [diff_elem * mag for diff_elem in diff]
 
 
@@ -159,7 +158,7 @@ def n_bodies():
             plot_object[i].set_data(plot_history[i][0], plot_history[i][1])
         return plot_object
     
-    ani = FuncAnimation(fig, update, frames=list(range(len(o2.x_hist_data))), init_func=init, blit=True, interval=10)
+    ani = FuncAnimation(fig, update, frames=list(range(len(Object.system[0].x_hist_data))), init_func=init, blit=True, interval=10)
     plt.show()
 
 
