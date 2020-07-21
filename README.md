@@ -27,4 +27,4 @@ The new version:
 
 # What it looks like?
 
-[![Text](demo/python_demo.mp4)]
+![old cpp](https://github.com/Xorekteer/n-body-plot-2d/tree/master/demo/old_cpp_demo.gif)
