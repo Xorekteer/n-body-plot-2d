@@ -6,7 +6,7 @@ Running the program generates a plot and and animation in matplotlib, showing th
 
 The new version:
  - relies on python-matplotlib for plotting
- - implements complete dynamics (no constrained movement, no static bodies)
+ - implements free dynamics (no constrained movement, no static bodies)
  - completely general (may define a large number of bodies)
  - automates the plotting process
 
@@ -27,4 +27,4 @@ The new version:
 
 # What it looks like?
 
-![old cpp](https://github.com/Xorekteer/n-body-plot-2d/tree/master/demo/old_cpp_demo.gif)
+Clone the repo and see the demo folder.
